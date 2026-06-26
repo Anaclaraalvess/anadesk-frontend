@@ -5,7 +5,7 @@ import {
 } from 'lucide-react';
 
 // Aqui nós conectamos com a sua API do Back-end!
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://anadesk-backend.onrender.com';
 
 export default function App() {
   const [chamados, setChamados] = useState([]);
